@@ -3,6 +3,7 @@
   grid-area: h;
   padding: 10px;
   outline: none;
+  border-radius: 5px;
 }
 
 .header__inner {
@@ -14,6 +15,7 @@
   padding-left: 5px;
   height: 30px;
   border-radius: 5px;
+  outline: none;
 }
 .header__search:hover {
   border: 1px solid #90caf9;

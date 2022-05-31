@@ -66,3 +66,18 @@
   top: 0px;
   left: 40px;
 }
+.friends {
+  margin-top: 35px;
+  display: flex;
+}
+.friend {
+  cursor: pointer;
+}
+.friend img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.friend img:hover {
+  border: 1px solid black;
+}

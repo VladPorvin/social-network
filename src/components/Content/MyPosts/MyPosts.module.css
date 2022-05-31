@@ -1,35 +1,38 @@
 /* ------------- POSTS -------------- */
 .posts {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .posts__new {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .posts__title {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .textarea {
-    font-size: 20px;
-    resize: none;
-    padding: 10px;
-    width: 400px;
-    height: 100px;
-    margin-bottom: 10px;
+  font-size: 20px;
+  resize: none;
+  padding: 10px;
+  width: 400px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.textarea:focus {
+  border: 1px solid #1de9b6;
 }
 .newpost {
-    height: 40px;
-    width: 90px;
-    text-align: center;
-    outline: none;
-    background-color: #1de9b6;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    font-size: 18px;
-
+  height: 40px;
+  width: 90px;
+  text-align: center;
+  outline: none;
+  background-color: #1de9b6;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  font-size: 18px;
 }
 .newpost:hover {
-    background-color: #64ffda;
+  background-color: #64ffda;
 }

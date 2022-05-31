@@ -1,18 +1,19 @@
 import React from 'react';
-import h from './Header.module.css';
+import s from './Header.module.css';
 
+//Header component
 const Header = (props) => {
   return (
-    <div className={h.header}>
-      <div className={h.header__inner}>
+    <div className={s.header}>
+      <div className={s.header__inner}>
         <a className="logo" href="#">
           <img
-            className={h.logo__img}
+            className={s.logo__img}
             src="https://cdn-icons-png.flaticon.com/512/1828/1828644.png"
             alt="error"
           />
         </a>
-        <input className={h.header__search} type="text" placeholder="Search" />
+        <input className={s.header__search} type="text" placeholder="Search" />
       </div>
     </div>
   );

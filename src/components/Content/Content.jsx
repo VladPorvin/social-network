@@ -7,7 +7,11 @@ const Content = (props) => {
   return (
     <section className={s.content}>
       <ProfileInfo />
-      <MyPosts posts={props.state.posts} />
+      <MyPosts
+        newPostText={props.state.newPostText}
+        dispatch={props.dispatch}
+        posts={props.state.posts}
+      />
     </section>
   );
 };
