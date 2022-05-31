@@ -1,0 +1,37 @@
+
+.profile {
+    display: grid;
+    grid-template-areas: 
+    "p i";
+    grid-template-rows: 15fr 1fr;
+    grid-template-columns: 3fr 9fr;
+    grid-gap: 20px;
+}
+
+.profile__img {
+    grid-area: p;
+}
+
+.profile__info {
+    grid-area: i;
+    background-color: #b2ebf2;
+    border-radius: 5px;
+    padding: 10px;
+}
+.name {
+    font-size: 26px;
+    font-weight: 500;
+}
+.status {
+    font-size: 16px;
+}
+.content__bg {
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+}
+.content__bg:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+

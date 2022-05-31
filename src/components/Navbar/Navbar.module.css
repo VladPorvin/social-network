@@ -1,0 +1,68 @@
+.navbar {
+  background-color: transparent;
+  grid-area: n;
+}
+.navigation {
+  text-align: center;
+}
+.navigation__item {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  position: relative;
+  height: 30px;
+  cursor: pointer;
+}
+.active {
+  font-size: 20px;
+  border-right: 1px solid #000;
+  color: #fff;
+}
+
+.navigation__item:hover {
+  font-size: 20px;
+}
+.navigation__item:nth-child(1)::before {
+  content: '';
+  background: url('../../img/user\ \(1\).png') 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
+.navigation__item:nth-child(2)::before {
+  content: '';
+  background: url('../../img/email\ \(1\).png') 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0px;
+  left: 30px;
+}
+.navigation__item:nth-child(3)::before {
+  content: '';
+  background: url('../../img/newspaper.png') 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
+.navigation__item:nth-child(4)::before {
+  content: '';
+  background: url('../../img/music-note\ \(1\).png') 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
+.navigation__item:nth-child(5)::before {
+  content: '';
+  background: url('../../img/setting\ \(1\).png') 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
