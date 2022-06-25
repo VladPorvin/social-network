@@ -1,0 +1,15 @@
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.usersItem {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.userFollow {
+    display: flex;
+    flex-direction: column;
+}

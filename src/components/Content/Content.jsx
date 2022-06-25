@@ -1,19 +1,15 @@
 import React from 'react';
 import s from './Content.module.css';
-import MyPosts from './MyPosts/MyPosts';
 import ProfileInfo from './ProfileInfo/ProfileInfo';
+import MyPostsContainer from "./MyPosts/MyPostsContainer";
 
 const Content = (props) => {
-  return (
-    <section className={s.content}>
-      <ProfileInfo />
-      <MyPosts
-        newPostText={props.state.newPostText}
-        dispatch={props.dispatch}
-        posts={props.state.posts}
-      />
-    </section>
-  );
+    return (
+        <section className={s.content}>
+            <ProfileInfo/>
+            <MyPostsContainer/>
+        </section>
+    );
 };
 
 export default Content;
